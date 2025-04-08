@@ -2,18 +2,28 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(to right, #540581, #c8a2d1);
+    /* background: linear-gradient(to right, #540, #540c44); */
+    /* background-image : url('tecnologia.webp');     */
   }
-  
-  .loginContainer, .dashboardContainer {
+
+  .container {
+    display: flex;
+    height: 100dvh;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .containerlogin {
+    display: flex ;
+    flex-direction: column;
     width: 300px;
-    margin: 50px auto;
+  
     padding: 15px;
+    align-items: center;
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 1, 0.5);
-    margin-top: 20rem;
-    align-items: center;
+    
   }
   
   h2 {

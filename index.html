@@ -7,28 +7,28 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-  <div class="loginContainer">
-
-    <h2>Bem-Vindo ao Login</h2>
-    <form id="loginForm">
-        
-      <div class="grupoInput">
-        <label for="usuario">Usuário:</label>
-        <input type="text" id="usuario" required>
-      </div>
-
-      <div class="grupoInput">
-        <label for="senha">Senha:</label>
-        <input type="password" id="senha" required>
-      </div>
-
-      <button type="submit">Entrar</button>
-    </form>
-
-    <p id="mensagemErro" style="color: red; display: none;">Usuário ou senha inválidos. Tente novamente.</p>
-
-  </div>
+  <main class="container">
+    <div class="containerlogin">  
+      <h2>Bem-Vindo ao Login</h2>
+      <form id="loginForm">
+          
+        <div class="grupoInput">
+          <label for="usuario">Usuário:</label>
+          <input type="text" id="usuario" required>
+        </div>
+  
+        <div class="grupoInput">
+          <label for="senha">Senha:</label>
+          <input type="password" id="senha" required>
+        </div>
+  
+        <button type="submit">Entrar</button>
+      </form>
+  
+      <p id="mensagemErro" style="color: red; display: none;">Usuário ou senha inválidos. Tente novamente.</p>
+  
+    </div>
+  </main>
 
   <script src="login.js"></script>
 </body>

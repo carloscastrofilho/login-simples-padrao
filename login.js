@@ -5,8 +5,8 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
     const senha = document.getElementById("senha").value;
   
 
-    const usuarioValido = "0220832321003";
-    const senhaValida = "3001232380220";
+    const usuarioValido = "teste";
+    const senhaValida = "teste";
 
     if (usuario === usuarioValido && senha === senhaValida) {
       alert("Login efetuado com sucesso!");
@@ -17,3 +17,4 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
     }
   });
   
+
